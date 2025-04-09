@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-image: url(assets/images/background-image.jpg);
+    /* object-fit:contain; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    margin-top: 28px;
+    border-radius: 12px;
+    opacity: 28%;
+}
+.navigation-bar{
+    width: 25px;
+    height: 50px;
+    display: flex;
+}
+
+.navigation-bar span img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 33px;
+    margin-top:auto ;
+}
+.navigation-bar ul{
+    list-style-type: none;
+}
